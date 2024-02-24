@@ -1,0 +1,128 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header{
+  height:90px;
+  background-color:#26d0c9;
+}
+
+.header-logo{
+  padding:20px 40px;
+  float:left;
+}
+
+.header-logo-text{
+  color:#fff;
+  font-size:36px;
+}
+
+.header-list li{
+  padding:33px 20px;
+  float:left;
+  color:#fff;
+}
+
+.main-text{
+  padding:100px 80px 0 80px;
+}
+
+.main-text h1{
+  font-size:140px;
+}
+
+.main-text span{
+  color:#ff4a4a;
+}
+
+.main-text h2{
+  font-size:60px;
+}
+
+.main-lesson{
+  height:500px;
+  padding:100px 80px 0 80px;
+}
+
+.main-lesson-text{
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+}
+
+.main-lesson-text h3{
+  font-size:28px;
+}
+
+.main-list{
+  float:left;
+}
+
+.main-list-illustration{
+  padding:50px 40px 30px 0;
+}
+
+.main-list a{
+  font-size:24px;
+}
+
+.main-contact{
+  padding:100px 80px;
+  width:400px;
+}
+
+.main-contact-text{
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:50px;
+}
+
+.main-contact-text h3{
+  font-size:28px;
+}
+
+.e-mail,.about,.go{
+  width:400px;
+  border:1px solid #dee7ec;
+  padding:20px;
+  margin:10px 0 30px 0;
+  font-size:18px;
+}
+
+.go{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+footer{
+  background-color:#2f5167;
+  padding:40px;
+  height:120px;
+  color:#fff;
+}
+
+footer p{
+  font-size:32px;
+  float:left;
+}
+
+footer div{
+  float:right;
+}
+
+footer li{
+  padding-bottom:20px;
+}
